@@ -31,6 +31,15 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JB3-65-hS8">
+                                <rect key="frame" x="145" y="718" width="75" height="35"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <connections>
+                                    <action selector="pracAddButton:" destination="gRT-Zz-sWv" eventType="touchUpInside" id="LhA-g1-iYx"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ixo-aK-dhn"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -52,6 +61,7 @@
                     <connections>
                         <outlet property="myTableView" destination="wFc-A1-S1Y" id="uNg-uI-PjF"/>
                         <outlet property="navigationRightButton" destination="1fb-n5-3HL" id="O1w-z7-5Br"/>
+                        <outlet property="practiceAddButton" destination="JB3-65-hS8" id="Hgg-qg-e54"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ez4-8P-Jfa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
